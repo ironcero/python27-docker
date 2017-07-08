@@ -7,6 +7,6 @@ RUN apt-get update && apt-get -y install \
     python-pip \
     libapache2-mod-wsgi
 
-RUN ["pip", "install", "--upgrade pip"]
+RUN pip install --upgrade pip
 
 CMD ["python"]
